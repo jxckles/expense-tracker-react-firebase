@@ -33,7 +33,7 @@ export const Auth = () => {
         }
     }
 
-    if(!isAuthenticate){
+    if(isAuthenticate){
         return <Navigate to="/expense-tracker"/>
     }
 
